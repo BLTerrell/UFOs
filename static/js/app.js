@@ -28,4 +28,21 @@ function handleClick() {
     let date = d3.select("#datetime").property("value");
     let filteredData = tableData;
 
-}
+    // if-statement syntax
+    // if (condition) {code to execute}
+    // psuedocode practice
+    // if ( a date is entered) { Filter the default data to show only the date entered };
+
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+
+    // Rebuild the table using the filtered data
+    // If no date was entered then filteredData will just be original tableData
+    buildTable(filteredData)
+};
+
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// Make sure table loads as soon as the page does
+buildTable(tableData);
