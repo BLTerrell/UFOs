@@ -19,15 +19,15 @@ The process to conduct a search through the UFO data would be as follows:
 1. Arrive on webpage and locate the 'Filter Search' section on the left-hand side towards the bottom of the page. 
 <img src='static/images/lower_body.png'>
 
-2. Select a category you want to filter by and input your criteria in the same format as displayed by the palceholder. Clicking anywhere outside of the current search bar, hitting `Tab`, or hitting `Enter`/`Return` should all update the table to reflect your filtered search.
+2. Select a category you want to filter by and input your criteria in the same format as displayed by the palceholder. Clicking anywhere outside of the current search bar, hitting `Tab`, or hitting `Enter`/`Return` should all update the table to reflect your filtered search. <br>
 In our example we filtered by `tx` in the `State` category.
 <img src='static/images/lower_body_1_input.png'> 
 
-3. Additional filters can be added in the samew manner as the original filter. Again, update your table by clicking anywhere outside of the current search bar, hitting `Tab`, or hitting `Enter`/`Return`.
+3. Additional filters can be added in the same manner as the original filter. Again, update your table by clicking anywhere outside of the current search bar, hitting `Tab`, or hitting `Enter`/`Return`. <br>
 In our example we added the filter of `fort worth` in the `City` category.
 <img src='static/images/lower_body_2_input.png'>
 
-4. Refresh by deleting all search criteria or by clicking the `UFO Sightings` in the top left corner of the webpage: 
+4. Reset the table by deleting all search criteria or by clicking the `UFO Sightings` in the top left corner of the webpage: 
 <img src='static/images/upper_body.png'>
 
 ## Summary
